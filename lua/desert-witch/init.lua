@@ -3,8 +3,8 @@ local M = {}
    local bg      = "#3b3228" --background
    local bg95    = "#43392d" --barely use! near-invisible subtle highlighting
    local bg75    = "#4c4134" --comments
-   local bg25    = "#6b6055"
    local altbg   = "#5d4f40"
+   local bg25    = "#6b6055"
    local sand    = "#c1a387"
    local fg      = "#afd2e9"
    local cyan    = "#3eccbe"
@@ -418,7 +418,7 @@ function M.setup()
     BgText = { fg = bg },
     Bg75Text = { fg = bg75 },
     AltbgText = { fg = altbg },
-    Bg25Text = { fg = bg75 },
+    Bg25Text = { fg = bg25 },
     SandText = { fg = sand },
     CyanText = { fg = cyan },
     ScarletText = { fg = scarlet },
