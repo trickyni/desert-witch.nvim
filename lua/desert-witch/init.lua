@@ -293,6 +293,7 @@ function M.setup()
     --blink.cmp
     BlinkCmpMenuBorder = { link = "FloatBorder" },
     BlinkCmpDocBorder = { fg = orange },
+    BlinkCmpGhostText = { link = "Comment" },
     -- MiniHipatterns
     MiniHipatternsFixme = { bg = scarlet, fg = bg },
     MiniHipatternsHack = { bg = orange, fg = bg },
